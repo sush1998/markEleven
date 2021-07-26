@@ -7,4 +7,6 @@ The app takes user's birthday and lucky number as input and shows if the user's 
 ## Logic 
 If sum of digits in birthdate is divisible by lukcy number givenby user, then the birthday is lucky.
 
-## Screenshot![App screenshot] (https://github.com/sush1998/markEleven/blob/0a2b72bf10e25a9cd81a9e4638841daf32b7ea46/images/Screenshot%20(90).png)
+## Screenshot
+
+![App_screenshot](https://github.com/sush1998/markEleven/blob/31e8cc4b2ac80cf2c8c5d877dadceb340569a7bf/Screenshot%20(91).png)
