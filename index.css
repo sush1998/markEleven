@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html , body{
+    background-color: #355B71;
+}
+
+.home 
+{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 4fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.home>figure
+{
+    margin: auto;
+}
+.heading
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#headingText
+{
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    font-size: 4rem;
+}
+#arrow{
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.fullpage
+{
+    height: 100vh;
+    
+}
+
+#home_img
+{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+
+.mainContent{
+    padding: 3rem;
+    
+}
+
+form{
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 60vw;
+    margin: auto;
+}
+
+input
+{
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+#check-Btn
+{
+    font-size: large;
+
+}
+
+.output
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#output_img
+{
+    display: none;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+
+#output_text
+{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
