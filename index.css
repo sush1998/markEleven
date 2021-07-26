@@ -40,6 +40,7 @@ body{
     justify-content: flex-start;
     color:#F7F6EE
 }
+
 #headingText
 {
     font-family: 'Lobster', cursive;
@@ -208,3 +209,69 @@ li>a,#Name
 {
     color:#355B71
 }
+
+#arrow:hover{
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    #home_img
+    {
+        width: 80vw;
+        height: 60vh;
+    }
+    #headingText
+    {
+        font-size: 2rem;
+    }
+
+    .notice_txt
+    {
+        font-size: 0.8rem;
+    }
+
+    form 
+    {
+        width: 70vw;
+        margin: auto;
+        
+    }
+
+    #instruction{
+        text-align: center;
+    }
+    .inputs
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #output_img
+    {
+        width: 50vw;
+        height: 30vh;
+    }
+    #output_text
+    {
+        font-size: 1.5rem;
+    }
+
+    footer
+    {
+        width: 80vw;
+    }
+    .social_links
+    {
+        margin: 1rem auto 0 auto;
+    }
+
+    .link
+    {
+        font-size: 1rem;
+        margin: 0 0.2rem;
+    }
+
+}   
