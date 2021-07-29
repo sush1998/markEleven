@@ -23,8 +23,9 @@ function checkLucky(dateTotal,luckyNumber)
     }
 }
 
-check.addEventListener("click",()=>
+check.addEventListener("click",(event)=>
 {
+    event.preventDefault();
     if(date.value=='' || number.value==='')
     {
         return;
